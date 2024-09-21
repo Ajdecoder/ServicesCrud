@@ -1,30 +1,32 @@
+
 form {
-  display: flex;
-  gap: 3px;
-  flex-direction: column;
+  display: flex !important;
+  gap: 3px !important;
+  flex-direction: column !important;
 }
 
 form input {
-  padding: 11px;
-  min-width: 500px;
-  margin: auto;
+  padding: 11px !important;
+  min-width: 500px !important;
+  margin: auto !important;
+  border: 2px solid gray;
 }
 
 button {
-  max-width: 60vh;
-  margin: 7px auto;
-  padding: 10px;
-  cursor: pointer;
+  max-width: 60vh !important;
+  margin: 7px auto !important;
+  padding: 10px !important;
+  cursor: pointer !important;
 }
 
 h1,
 h2 {
-  text-align: center;
+  text-align: center !important;
 }
 
 .service-list li{
-  width: 23rem;
-  background-color: darkgrey;
-  padding: 24px;
-  list-style-type: none;
+  width: 23rem !important;
+  background-color: darkgrey !important;
+  padding: 24px !important;
+  list-style-type: none !important;
 }

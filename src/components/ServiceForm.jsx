@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
+import '../index.css'
 
 const ServiceForm = ({ onSubmit, service }) => {
   const [name, setName] = useState('');
@@ -50,7 +51,7 @@ const ServiceForm = ({ onSubmit, service }) => {
         placeholder="Price" 
         required 
       />
-      <button type="submit">Submit</button>
+      <button className='m-auto p-4 bg-black text-white rounded-[10px]' type="submit">Submit</button>
     </form>
   );
 };

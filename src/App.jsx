@@ -51,7 +51,7 @@ const App = () => {
 
   return (
     <div>
-      <h1 className="box">Healthcare Services Management</h1>
+      <h1 className="box p-5 text-2xl ">Healthcare Services Management</h1>
       <ServiceForm
         onSubmit={addOrUpdateService}
         service={editingIndex !== null ? services[editingIndex] : null}
